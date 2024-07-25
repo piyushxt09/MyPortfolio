@@ -1,0 +1,125 @@
+.Contact-me h1{
+    font-size: 40px;
+    margin-left: 240px;
+    color:  rgb(28, 149, 219);
+}
+.Contact-me{
+    background:url('./images/contect.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8px;
+    margin-top: 40px;
+}
+.ContectItems{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 50px;
+}
+.ContectItems .input{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 800px;
+}
+.ContectItems div label{
+    font-size: 20px;
+}
+.ContectItems .textarea{
+    display: flex;
+    gap: 10px;
+}
+.ContectItems div input,textarea{
+    padding: 10px;
+    font-size: 18px;
+}
+.ContectItems div textarea{
+    padding: 10px;
+    font-size: 16px;
+}
+.ContectItems div input::placeholder{
+    font-size: 14px;
+}
+.ContectItems div input:focus{
+    border: 1px solid rgb(28, 149, 219);
+    outline: none;
+}
+.ContectItems .input input{
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.ContectItems .textarea textarea{
+    width: 470px;
+    border: 1px solid rgb(224, 224, 224);
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 5px;
+}
+.ContectItems .textarea textarea:focus{
+    border: 1px solid rgb(28, 149, 219);
+    outline: none;
+}
+.Contact-me button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 149, 219);
+    border: 1px solid rgb(28, 149, 219);
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 180px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    transition: 0.6s ease;
+}
+.Contact-me button:hover{
+    background-color: rgb(254, 255, 255);
+    color: rgb(28, 149, 219);
+}
+
+@media screen and (max-width : 900px) 
+{
+    .ContectItems .input{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: auto;
+    }
+    .Contact-me h1{
+        font-size: 30px;
+        margin-left: 180px;
+       
+    }
+}
+@media screen and (max-width : 450px) 
+{
+    .ContectItems .input{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        max-width: 200px;
+    }
+    label{
+        display: none;
+    }
+    .Contact-me h1{
+        font-size: 25px;
+        margin-left: 80px;
+       
+    }
+    .Contact-me{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    .Contact-me button{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+}

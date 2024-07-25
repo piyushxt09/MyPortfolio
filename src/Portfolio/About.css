@@ -1,0 +1,66 @@
+.About-Section{
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+}
+.AboutME{
+    text-align: center;
+    color: white;
+}
+.AboutME .Heading{
+   font-size: 44px;
+}
+.AboutME .MyName{
+    font-size: 35px;
+    color: rgb(28, 149, 219);
+}
+.AboutME h3{
+    margin-top: -15px;
+    font-size: 20px;
+}
+p{
+    text-align: justify;
+    line-height: 26px;
+    font-size: 20px;
+    margin: 20px auto;
+
+}
+.AboutME button{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 149, 219);
+    border: 1px solid rgb(28, 149, 219);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: 0.8s ease;
+}
+.AboutME button:hover{
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width : 900px){
+    .AboutME .Heading{
+        font-size: 30px;
+    }
+    .AboutME .MyName{
+        font-size: 20px;
+    }
+    .AboutME h3{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width : 450px){
+    .AboutME .Heading{
+        font-size: 30px;
+    }
+    .AboutME .MyName{
+        font-size: 20px;
+    }
+    .AboutME h3{
+        font-size: 14px;
+    }
+}

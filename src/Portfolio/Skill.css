@@ -1,0 +1,124 @@
+.Skills h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(28, 149, 219);
+}
+
+.Skills .HeadingTitle {
+    text-align: center;
+    margin-top: -24px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.skillItems {
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skillImg {
+    width: 50px;
+    height: 50px;
+}
+
+.Mapskill {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.Mapskill div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Mapskill div p {
+    width: 600px;
+    font-size: 18px;
+    margin-top: -12px;
+}
+
+.skills-About {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.skillabout {
+    width: 400px;
+    height: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: rgb(28, 149, 219);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.skillabout .HeadindSkill {
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    height: 30px;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.skillabout .HeadindSkill h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+
+}
+
+@media screen and (max-width: 900px) {
+    
+    .skillItems{
+        flex-direction: column;
+    }
+    .skillImg {
+        width: 40px;
+        height: 40px;
+    }
+    .Skills h1 {
+        font-size: 30px;
+    }
+    .Skills .HeadingTitle{
+        font-size: 14px;
+    }
+    .Mapskill div h2{
+        font-size: 20px;
+    }
+    .Mapskill div p {
+        width: auto;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: -12px;
+    }
+}
+@media screen and (max-width: 450px) {
+    
+    .skillabout{
+        width: 350px;
+    }
+    .Skills{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .skills-About{
+        max-width: 400px;
+    }
+}
