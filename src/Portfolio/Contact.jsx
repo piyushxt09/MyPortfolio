@@ -22,6 +22,20 @@ export default function Contact() {
             alert('please check all the fields!')
         }
     }
+    // if(data != '')
+    // {
+    //     useEffect(() => {
+    //         fetch('http://localhost:3000/clientdata', {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/json'
+    //             },
+    //             body: JSON.stringify(data)
+    //         }).then(response => response.json()).then(data=>{
+    //             setData('');
+    //         })
+    //     })
+    // }
 
     return (
         <>
