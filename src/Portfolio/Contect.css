@@ -11,55 +11,55 @@
     padding: 8px;
     margin-top: 40px;
 }
-.ContectItems{
+#FormData{
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-left: 50px;
 }
-.ContectItems .input{
+#FormData .input{
     display: flex;
     align-items: center;
     gap: 10px;
     width: 800px;
 }
-.ContectItems div label{
+#FormData div label{
     font-size: 20px;
 }
-.ContectItems .textarea{
+#FormData .textarea{
     display: flex;
     gap: 10px;
 }
-.ContectItems div input,textarea{
+#FormData div input,textarea{
     padding: 10px;
     font-size: 18px;
 }
-.ContectItems div textarea{
+#FormData div textarea{
     padding: 10px;
     font-size: 16px;
 }
-.ContectItems div input::placeholder{
+#FormData div input::placeholder{
     font-size: 14px;
 }
-.ContectItems div input:focus{
+#FormData div input:focus{
     border: 1px solid rgb(28, 149, 219);
     outline: none;
 }
-.ContectItems .input input{
+#FormData .input input{
     width: 500px;
     border-radius: 5px;
     border: 1px solid rgb(224, 224, 224);
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
-.ContectItems .textarea textarea{
+#FormData .textarea textarea{
     width: 470px;
     border: 1px solid rgb(224, 224, 224);
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     border-radius: 5px;
 }
-.ContectItems .textarea textarea:focus{
+#FormData .textarea textarea:focus{
     border: 1px solid rgb(28, 149, 219);
     outline: none;
 }
@@ -83,7 +83,7 @@
 
 @media screen and (max-width : 900px) 
 {
-    .ContectItems .input{
+    #FormData .input{
         display: flex;
         align-items: center;
         gap: 10px;
@@ -97,7 +97,7 @@
 }
 @media screen and (max-width : 450px) 
 {
-    .ContectItems .input{
+    #FormData .input{
         display: flex;
         align-items: center;
         gap: 10px;
