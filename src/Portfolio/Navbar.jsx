@@ -31,6 +31,7 @@ const Navbar = () => {
     IntroDiv.style.display = 'block';
     IntroDiv.style.transition = 'display 0.6s';
     Projects.style.transition = 'display 0.6s';
+    window.location.href = '#Home';
   }
   const HandleSHowProjects = (e) => {
     e.preventDefault();
@@ -40,10 +41,16 @@ const Navbar = () => {
     Projects.style.display = 'block'
     IntroDiv.style.transition = 'display 0.6s';
     Projects.style.transition = 'display 0.6s';
+    window.location.href = '#Projects';
+  }
+  const HadleShowNavbar = () => {
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('active');
   }
   return (
     <>
       <div className={`Navbar ${isFixed ? 'fixed' : ''}`}>
+        <i class="fa-solid fa-bars Navbtn" onClick={HadleShowNavbar}></i>
         <span><h2>MyPortfolio</h2></span>
         <nav>
           <ul>
