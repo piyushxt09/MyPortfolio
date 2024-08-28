@@ -9,7 +9,7 @@ export default function Projects() {
     { id: 2, Title: 'Latest Movies', Link: 'https://latest-moviext09.netlify.app/' },
     { id: 3, Title: 'Google Play Store', Link: '' },
     { id: 4, Title: 'To-do List', Link: 'https://todolistxt09.netlify.app/' },
-    { id: 5, Title: 'E-commerce Website', Link: '' },
+    { id: 5, Title: 'E-commerce Website', Link: 'https://infiniteproducts.netlify.app/' },
     { id: 6, Title: 'Conference Expense Planner', Link: 'https://conference-expense-plannerxt09.netlify.app/' },
   ];
 
